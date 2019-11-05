@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
+
+li, a, h1, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: aqua;
+    text-decoration: none;
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+body{
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color:black;
+    text-decoration: none;
+}
+
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav{
+    list-style: none;
+}
+
+.nav li{
+    display: inline;
+    padding: 20px;
+}
+
+.nav li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav li a:hover{
+    color:black;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 58px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    color:black;
+}
+
+h1{
+    cursor: pointer;
+}
+
+#footer{
+    margin-top: 50px;
+    color: wheat;
+    text-align: center;
+}
+
+#container{
+    margin-top: 30px;
+    width: auto;
+    height: auto;
+
+}
+
+#about-info{
+    color: wheat;
+}
+
+.form{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    background: rgba(0,0,0,0.7);
+    padding: 40px 50px;
+    border-radius: 5px;
+    margin-left: 27%;
+}
+ 
+.title{
+    font-size: 2em;
+    line-height: 1.25em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: goldenrod;
+    padding-bottom: 15px;
+}
+ 
+.input-fields {
+    padding: 0 30px;
+}
+ 
+.input-fields .items{
+    width: 100%;
+    padding-bottom: 15px;
+} 
+ 
+.input-fields .items .label{
+    display: block;
+    font-size: 1em;
+    color: #ffecb3;
+    text-transform: capitalize;
+    transition: all 0.5s ease;
+    padding-bottom: 5px;
+}
+ 
+.input-fields .items .input,
+.input-fields .items .text-area{
+    background: transparent;
+    border: 0;
+    border: 1px solid #ffecb3;
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 1em;
+    color: #ffecb3;
+    border-radius: 3px;
+}
+ 
+.button{
+    margin: 0 30px;
+    background: goldenrod;
+    color: #ffecb3;
+    font-size: 1.25em;  
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+ 
+ 
+.items #msg{
+    height: 100px;
+}
